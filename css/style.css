@@ -14,13 +14,14 @@ a {
     text-decoration: none;
 }
 
-.index-body{
+#index-wrapper{
     width: 1000px;
     height: 1000px;
     margin: 0 auto;
 }
 
-.layout2-body{
+
+#layout2-wrapper{
     width: 1400px;
     height: 2000px;
     margin: 0 auto;
