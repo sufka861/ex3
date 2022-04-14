@@ -52,7 +52,7 @@ a {
     display: flex;
 }
 
-.index-header > div, .layout2-header > div{
+.index-header > div, .layout2-header > div, .layout3-header > div{
     background: orange;
     color: orange;
     margin-top: 28px;
@@ -64,7 +64,7 @@ a {
     align-self: flex-start;
 }
 
-.index-header nav{
+.index-header nav, .layout3-header nav{
     width: 100%;
     height: 57px;
     display: flex;
@@ -95,7 +95,7 @@ ul{
 
 }
 
-.index-header nav a{
+.index-header nav a, .layout3-header nav a{
     width: 242px;
     height: 57px;
     background-color:peachpuff;
@@ -104,12 +104,16 @@ ul{
     color: black;
     font-size: large;
 }
-.index-header a:hover, #layout2-wrapper li:hover{
+.index-header a:hover, #layout2-wrapper li:hover, .layout3-header a:hover{
     background-color:burlywood;
 }
-.index-header .selected-nav, #layout2-wrapper .selected-nav{
+.index-header .selected-nav, #layout2-wrapper .selected-nav, .layout3-header .selected-nav{
     background-color:firebrick;
     color: white;
+}
+
+.layout3-header a{
+    align-items: flex-end;
 }
 
 
@@ -208,4 +212,26 @@ ul{
     width: 100%;
     height: 121px;
     background-color: grey;
+}
+
+
+.layout3-header{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    margin: 0 auto;
+    /* display: flex; */
+}
+
+#layout3-wrapper{
+    width: 1000px;
+    height: 621px;
+    background-color: #517A8D;
+    margin: 0 auto;
+}
+
+.squares{
+    width: 500px;
+    height: 500px;
+    background-color: red;
 }
